@@ -13,7 +13,7 @@
 		FFD4176F28E9031E000418DC /* NavStackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4176E28E9031E000418DC /* NavStackerTests.swift */; };
 		FFD4177928E9031E000418DC /* NavStackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4177828E9031E000418DC /* NavStackerUITests.swift */; };
 		FFD4177B28E9031E000418DC /* NavStackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4177A28E9031E000418DC /* NavStackerUITestsLaunchTests.swift */; };
-		FFD4178828EA4426000418DC /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4178728EA4426000418DC /* ContentView2.swift */; };
+		FFD4178828EA4426000418DC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4178728EA4426000418DC /* RootView.swift */; };
 		FFD4178A28EA44FB000418DC /* DrinkProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4178928EA44FB000418DC /* DrinkProductViewModel.swift */; };
 		FFD4178C28EA4D7A000418DC /* BeverageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4178B28EA4D7A000418DC /* BeverageViews.swift */; };
 /* End PBXBuildFile section */
@@ -46,7 +46,7 @@
 		FFD4177428E9031E000418DC /* NavStackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavStackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD4177828E9031E000418DC /* NavStackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackerUITests.swift; sourceTree = "<group>"; };
 		FFD4177A28E9031E000418DC /* NavStackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FFD4178728EA4426000418DC /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		FFD4178728EA4426000418DC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FFD4178928EA44FB000418DC /* DrinkProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkProductViewModel.swift; sourceTree = "<group>"; };
 		FFD4178B28EA4D7A000418DC /* BeverageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 				FFD4178928EA44FB000418DC /* DrinkProductViewModel.swift */,
 				FFD4178B28EA4D7A000418DC /* BeverageViews.swift */,
 				FFD4175E28E9031E000418DC /* ContentView.swift */,
-				FFD4178728EA4426000418DC /* ContentView2.swift */,
+				FFD4178728EA4426000418DC /* RootView.swift */,
 				FFD4176028E9031E000418DC /* Assets.xcassets */,
 				FFD4176228E9031E000418DC /* NavStacker.entitlements */,
 			);
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD4178828EA4426000418DC /* ContentView2.swift in Sources */,
+				FFD4178828EA4426000418DC /* RootView.swift in Sources */,
 				FFD4175F28E9031E000418DC /* ContentView.swift in Sources */,
 				FFD4175D28E9031E000418DC /* NavStackerApp.swift in Sources */,
 				FFD4178C28EA4D7A000418DC /* BeverageViews.swift in Sources */,
