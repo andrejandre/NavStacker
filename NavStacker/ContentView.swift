@@ -43,6 +43,8 @@ struct ContentView: View {
         Coffee(name: "Espresso", price: 3.99)
     ]
     
+    @StateObject var drinkProductViewModel = DrinkProductViewModel()
+    
     var body: some View {
         ZStack {
             NavigationStack(path: $navPath) {
@@ -65,38 +67,23 @@ struct ContentView: View {
                 .navigationDestination(for: DrinkProduct.self) { drinkProduct in
                     switch drinkProduct {
                         case let .kombucha(kombucha):
-                            KombuchaView(kombucha: kombucha)
+                            KombuchaView(
+                                drinkProductViewModel: self.drinkProductViewModel,
+                                kombucha: kombucha
+                            )
                         case let .coffee(coffee):
-                            CoffeeView(coffee: coffee)
+                            CoffeeView(
+                                drinkProductViewModel: self.drinkProductViewModel,
+                                coffee: coffee
+                            )
                     }
                 }
             }
         }
+        .onAppear {
+            print("Count of navigation path: " + "\(self.navPath.count)")
+        }
     }
 }
 
-struct KombuchaView: View {
-    @State var kombucha: Kombucha
-    var body: some View {
-        VStack {
-            Text("Price:")
-                .font(.title)
-            Text("\(kombucha.price)")
-                .font(.callout)
-        }
-        .navigationTitle(kombucha.name)
-    }
-}
 
-struct CoffeeView: View {
-    @State var coffee: Coffee
-    var body: some View {
-        VStack {
-            Text("Price:")
-                .font(.title)
-            Text("\(coffee.price)")
-                .font(.callout)
-        }
-        .navigationTitle(coffee.name)
-    }
-}
