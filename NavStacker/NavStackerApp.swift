@@ -16,7 +16,8 @@ struct NavStackerApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            RootView()
+            //RootView()
+            ParentView()
         }
     }
 }

@@ -101,6 +101,11 @@ struct KombuchaProductsView: View {
         .onDisappear {
             print("KombuchaProductsView disappeared")
         }
+        .gesture(
+            DragGesture()
+                .onChanged({ value in self.drinkProductViewModel.navPath.removeLast() })
+                .onEnded({ _ in self.drinkProductViewModel.navPath.removeLast() })
+        )
     }
 }
 
