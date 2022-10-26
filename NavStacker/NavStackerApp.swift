@@ -15,8 +15,6 @@ import SwiftUI
 struct NavStackerApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            //RootView()
             ParentView()
         }
     }

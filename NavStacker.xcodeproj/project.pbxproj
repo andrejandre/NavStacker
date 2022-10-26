@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		FF1D4C7F28EBA6AC003CACDC /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D4C7E28EBA6AC003CACDC /* ParentView.swift */; };
 		FFD4175D28E9031E000418DC /* NavStackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4175C28E9031E000418DC /* NavStackerApp.swift */; };
-		FFD4175F28E9031E000418DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4175E28E9031E000418DC /* ContentView.swift */; };
 		FFD4176128E9031E000418DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD4176028E9031E000418DC /* Assets.xcassets */; };
 		FFD4176F28E9031E000418DC /* NavStackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4176E28E9031E000418DC /* NavStackerTests.swift */; };
 		FFD4177928E9031E000418DC /* NavStackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4177828E9031E000418DC /* NavStackerUITests.swift */; };
 		FFD4177B28E9031E000418DC /* NavStackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4177A28E9031E000418DC /* NavStackerUITestsLaunchTests.swift */; };
-		FFD4178828EA4426000418DC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4178728EA4426000418DC /* RootView.swift */; };
 		FFD4178A28EA44FB000418DC /* DrinkProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4178928EA44FB000418DC /* DrinkProductViewModel.swift */; };
 		FFD4178C28EA4D7A000418DC /* BeverageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4178B28EA4D7A000418DC /* BeverageViews.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +38,6 @@
 		FF1D4C7E28EBA6AC003CACDC /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		FFD4175928E9031E000418DC /* NavStacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavStacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD4175C28E9031E000418DC /* NavStackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackerApp.swift; sourceTree = "<group>"; };
-		FFD4175E28E9031E000418DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFD4176028E9031E000418DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFD4176228E9031E000418DC /* NavStacker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavStacker.entitlements; sourceTree = "<group>"; };
 		FFD4176A28E9031E000418DC /* NavStackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavStackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +45,6 @@
 		FFD4177428E9031E000418DC /* NavStackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavStackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD4177828E9031E000418DC /* NavStackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackerUITests.swift; sourceTree = "<group>"; };
 		FFD4177A28E9031E000418DC /* NavStackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FFD4178728EA4426000418DC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FFD4178928EA44FB000418DC /* DrinkProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkProductViewModel.swift; sourceTree = "<group>"; };
 		FFD4178B28EA4D7A000418DC /* BeverageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,8 +100,6 @@
 				FFD4175C28E9031E000418DC /* NavStackerApp.swift */,
 				FFD4178928EA44FB000418DC /* DrinkProductViewModel.swift */,
 				FFD4178B28EA4D7A000418DC /* BeverageViews.swift */,
-				FFD4175E28E9031E000418DC /* ContentView.swift */,
-				FFD4178728EA4426000418DC /* RootView.swift */,
 				FFD4176028E9031E000418DC /* Assets.xcassets */,
 				FFD4176228E9031E000418DC /* NavStacker.entitlements */,
 				FF1D4C7E28EBA6AC003CACDC /* ParentView.swift */,
@@ -259,8 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD4178828EA4426000418DC /* RootView.swift in Sources */,
-				FFD4175F28E9031E000418DC /* ContentView.swift in Sources */,
 				FFD4175D28E9031E000418DC /* NavStackerApp.swift in Sources */,
 				FFD4178C28EA4D7A000418DC /* BeverageViews.swift in Sources */,
 				FF1D4C7F28EBA6AC003CACDC /* ParentView.swift in Sources */,
